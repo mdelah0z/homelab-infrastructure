@@ -21,7 +21,7 @@ The environment simulates a small enterprise infrastructure including virtualiza
 | WinSer-DC1        | 192.168.18.30  | Active Directory Domain Controller    |
 | WinSer-DC2        | 192.168.18.35  | Active Directory Domain Controller    |
 | CentOS Stream Lab | 192.168.18.59  | Linux testing server                  |
-| Linux Mint JP     | 192.168.18.64  | Office server connected to 1TB USB NAS    |
+| Linux Mint JP     | 192.168.18.64  | Office server connected to 1TB NAS    |
 
 ---
 

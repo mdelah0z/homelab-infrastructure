@@ -1,0 +1,82 @@
+[root@localhost ~]# dig esxhost1.lab.local
+
+; <<>> DiG 9.16.23-RH <<>> esxhost1.lab.local
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34355
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: e508c782da9691dc0100000069b7226aaedd0202481049db (good)
+;; QUESTION SECTION:
+;esxhost1.lab.local.            IN      A
+
+;; ANSWER SECTION:
+esxhost1.lab.local.     86400   IN      A       192.168.18.90
+
+;; Query time: 2 msec
+;; SERVER: 192.168.18.110#53(192.168.18.110)
+;; WHEN: Sun Mar 15 16:19:38 -05 2026
+;; MSG SIZE  rcvd: 91
+
+
+
+
+
+
+[root@localhost ~]# dig winser-dc1.lab.local
+
+; <<>> DiG 9.16.23-RH <<>> winser-dc1.lab.local
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3335
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 0bd2a1e15f4ce7a30100000069b7228b3b26bc0b2a9ced2b (good)
+;; QUESTION SECTION:
+;winser-dc1.lab.local.          IN      A
+
+;; ANSWER SECTION:
+winser-dc1.lab.local.   86400   IN      A       192.168.18.30
+
+;; Query time: 0 msec
+;; SERVER: 192.168.18.110#53(192.168.18.110)
+;; WHEN: Sun Mar 15 16:20:11 -05 2026
+;; MSG SIZE  rcvd: 93
+
+
+
+
+
+
+
+[root@localhost ~]# dig winser-dc2.lab.local
+
+; <<>> DiG 9.16.23-RH <<>> winser-dc2.lab.local
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20332
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: d604a0dcac0f3a190100000069b722902b9edb58fbf64ae1 (good)
+;; QUESTION SECTION:
+;winser-dc2.lab.local.          IN      A
+
+;; ANSWER SECTION:
+winser-dc2.lab.local.   86400   IN      A       192.168.18.35
+
+;; Query time: 0 msec
+;; SERVER: 192.168.18.110#53(192.168.18.110)
+;; WHEN: Sun Mar 15 16:20:16 -05 2026
+;; MSG SIZE  rcvd: 93

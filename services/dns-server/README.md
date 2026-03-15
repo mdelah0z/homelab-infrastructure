@@ -1,1 +1,3 @@
-
+192.168.18.110
+CentOS Stream
+BIND
